@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class Board {
 
-    public static Board board;
+    private static Board board;
     private Room currentRoom;
 
     private Set<Room> rooms = new HashSet<>();
@@ -19,7 +19,8 @@ public class Board {
 
     private Set<Room> visitedRooms = new HashSet<>();
 
-    public void Board() {
+    private void Board() {
+
     }
 
     public void addRoom(Room room) {
@@ -85,6 +86,11 @@ public class Board {
      * @return Board.
      */
     public static Board getBoard() {
-        return board;
+        if (board != null) {
+            return board;
+        } else {
+            board = new Board();
+            return board;
+        }
     }
 }
