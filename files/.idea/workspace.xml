@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ceb09f-0996-4726-bab4-5f7c1fa1e744" name="Default Changelist" comment="Completed task 4">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c4ceb09f-0996-4726-bab4-5f7c1fa1e744" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="6689" />
+    <option name="totalTimeSeconds" value="6821" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-858036111">
@@ -61,13 +60,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="191" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="191" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -301,7 +300,7 @@
       <updated>1559613727509</updated>
       <workItem from="1559613728655" duration="3773000" />
       <workItem from="1559621326473" duration="7867000" />
-      <workItem from="1559630729539" duration="616000" />
+      <workItem from="1559630729539" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1559614187724</created>
@@ -324,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559631289643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Task 4 Comments">
+      <created>1559631355724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559631355724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12256000" />
+    <option name="totallyTimeSpent" value="12868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1200" extended-state="6" />
@@ -377,7 +383,8 @@
     <MESSAGE value="Added .gitignore" />
     <MESSAGE value="Completed task 2" />
     <MESSAGE value="Completed task 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed task 4" />
+    <MESSAGE value="Added Task 4 Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Task 4 Comments" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />

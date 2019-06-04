@@ -134,6 +134,7 @@ public class AdventureGame {
      * Sets up the scanner which gets user commands entered into the console.
      */
     private static void play() {
+        //Task 4 -- Removed line
         displayIntro();
         character = new Character();
         setupBoard();
