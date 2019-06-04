@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="259.0" y="514.0">domain.AdventureGame</node>
+    <node x="571.5" y="0.0">service.Room</node>
+    <node x="757.5" y="867.0">service.Weapon</node>
+    <node x="436.0" y="970.0">domain.Commands.SearchCommand</node>
+    <node x="234.0" y="970.0">domain.Commands.LeaveCommand</node>
+    <node x="0.0" y="514.0">domain.Board</node>
+    <node x="352.5" y="867.0">service.Command</node>
+    <node x="811.0" y="663.0">domain.Enemies.Ninja</node>
+    <node x="850.0" y="197.0">domain.Rooms.BasicRoom</node>
+    <node x="840.0" y="970.0">domain.Weapons.Hammer</node>
+    <node x="0.0" y="867.0">service.Treasure</node>
+    <node x="0.0" y="0.0">domain.Character</node>
+    <node x="663.0" y="970.0">domain.Weapons.Sword</node>
+    <node x="468.0" y="161.5">domain.Rooms.TreasureRoom</node>
+    <node x="697.0" y="514.0">service.Enemy</node>
+    <node x="659.0" y="150.0">domain.Rooms.MixedRoom</node>
+    <node x="583.0" y="663.0">domain.Enemies.Turtle</node>
+    <node x="291.0" y="185.0">domain.Rooms.EnemyRoom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="domain.Enemies.Ninja" target="service.Enemy">
+      <point x="0.0" y="-38.0" />
+      <point x="915.0" y="638.0" />
+      <point x="853.0" y="638.0" />
+      <point x="52.0" y="49.5" />
+    </edge>
+    <edge source="domain.Rooms.BasicRoom" target="service.Room">
+      <point x="0.0" y="-38.0" />
+      <point x="928.5" y="120.0" />
+      <point x="707.125" y="120.0" />
+      <point x="58.125" y="50.0" />
+    </edge>
+    <edge source="domain.Weapons.Hammer" target="service.Weapon">
+      <point x="0.0" y="-38.0" />
+      <point x="918.5" y="945.0" />
+      <point x="866.25" y="945.0" />
+      <point x="36.25" y="26.5" />
+    </edge>
+    <edge source="domain.Rooms.EnemyRoom" target="service.Room">
+      <point x="0.0" y="-50.0" />
+      <point x="369.5" y="120.0" />
+      <point x="590.875" y="120.0" />
+      <point x="-58.125" y="50.0" />
+    </edge>
+    <edge source="domain.Rooms.TreasureRoom" target="service.Room">
+      <point x="0.0" y="-73.5" />
+      <point x="553.5" y="130.0" />
+      <point x="629.625" y="130.0" />
+      <point x="-19.375" y="50.0" />
+    </edge>
+    <edge source="domain.Rooms.MixedRoom" target="service.Room">
+      <point x="0.0" y="-85.0" />
+      <point x="744.5" y="130.0" />
+      <point x="668.375" y="130.0" />
+      <point x="19.375" y="50.0" />
+    </edge>
+    <edge source="domain.Commands.LeaveCommand" target="service.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="325.0" y="945.0" />
+      <point x="389.25" y="945.0" />
+      <point x="-36.75" y="26.5" />
+    </edge>
+    <edge source="domain.Weapons.Sword" target="service.Weapon">
+      <point x="0.0" y="-38.0" />
+      <point x="741.5" y="945.0" />
+      <point x="793.75" y="945.0" />
+      <point x="-36.25" y="26.5" />
+    </edge>
+    <edge source="domain.Commands.SearchCommand" target="service.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="527.0" y="945.0" />
+      <point x="462.75" y="945.0" />
+      <point x="36.75" y="26.5" />
+    </edge>
+    <edge source="domain.Enemies.Turtle" target="service.Enemy">
+      <point x="0.0" y="-38.0" />
+      <point x="687.0" y="638.0" />
+      <point x="749.0" y="638.0" />
+      <point x="-52.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6962406015037599" x="751.4559407659183" y="422.91206956127996" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
