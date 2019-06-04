@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ceb09f-0996-4726-bab4-5f7c1fa1e744" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Assignment 3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/src/main/java/domain/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/files/src/main/java/domain/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/AdventureGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Commands/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Commands/EnterCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Commands/LeaveCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Commands/SearchCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Enemies/Ninja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Enemies/Turtle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Rooms/BasicRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Rooms/EnemyRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Rooms/MixedRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Rooms/TreasureRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Weapons/Hammer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Weapons/Sword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Treasure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uml.uml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="6856" />
+    <option name="totalTimeSeconds" value="6860" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-858036111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -165,7 +136,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559631231377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559631293250" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559613727509</updated>
       <workItem from="1559613728655" duration="3773000" />
-      <workItem from="1559621326473" duration="8631000" />
+      <workItem from="1559621326473" duration="8710000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1559614187724</created>
@@ -267,11 +238,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12404000" />
+    <option name="totallyTimeSpent" value="12483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1200" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,7 +254,7 @@
       <window_info anchor="bottom" id="Dependency Viewer" weight="0.3293023" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283721" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283721" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283721" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
