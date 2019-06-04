@@ -98,7 +98,7 @@ public class Character {
         updateEnemies();
     }
 
-    
+    //Task 2
     public List<Treasure> getCollectedTreasures() {
         return collectedTreasures;
     }
