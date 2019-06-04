@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class Board {
 
-    private static Board board;
+    private static Board board; //Task 4
     private Room currentRoom;
 
     private Set<Room> rooms = new HashSet<>();
@@ -19,7 +19,7 @@ public class Board {
 
     private Set<Room> visitedRooms = new HashSet<>();
 
-    private void Board() {
+    private void Board() { //Task 4
 
     }
 
@@ -85,12 +85,10 @@ public class Board {
      * Gets the board.
      * @return Board.
      */
-    public static Board getBoard() {
-        if (board != null) {
-            return board;
-        } else {
+    public static Board getBoard() { //Task 4
+        if (board == null) {
             board = new Board();
-            return board;
         }
+        return board;
     }
 }
