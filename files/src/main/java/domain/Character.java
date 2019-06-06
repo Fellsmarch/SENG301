@@ -1,17 +1,16 @@
 package domain;
 
 import java.util.ArrayList;
+import java.util.Observable;
 import service.Enemy;
 import service.Treasure;
 
-import java.util.HashSet;
-import java.util.Set;
 import java.util.List;
 
 /**
  * Contains basic methods of a character.
  */
-public class Character {
+public class Character extends Observable { //Task 5
 
     private static final int ALIVE = 0;
     private static final int DEAD = 1;
@@ -20,7 +19,7 @@ public class Character {
 
     private int state = ALIVE;
 
-    private Set<Enemy> enemies = new HashSet<>();
+    //Task 5
 
     private List<Treasure> collectedTreasures = new ArrayList<>(); //Task 2
 
@@ -95,7 +94,8 @@ public class Character {
      */
     private void changeState(int state) {
         this.state = state;
-        updateEnemies();
+        setChanged();
+        notifyObservers(); //Task 5
     }
 
     //Task 2
@@ -104,18 +104,13 @@ public class Character {
     }
 
     public void addEnemy(Enemy e) {
-        enemies.add(e);
+        addObserver(e); //Task 5
     }
 
     private void removeEnemy(Enemy e) {
-        enemies.remove(e);
+        deleteObserver(e); //Task 5
     }
 
-    private void updateEnemies() {
-        for (Enemy e : enemies) {
-            if (Board.getBoard().getCurrentRoom().getEnemy() == e) {
-                 e.add(this);
-            }
-        }
-    }
+    //Task 5
+
 }

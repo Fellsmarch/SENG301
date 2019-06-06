@@ -1,7 +1,4 @@
 
-Bsquid:S1444"+Make this "public static board" field final(¶¼Ø•
-"squid:ClassVariableVisibilityCheck"QMake board a static final constant or non-public and provide accessors if needed.(¶¼Ø•
-hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ÚÉÍÿÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÉÍÿÿÿÿÿ
-~squid:S1845"bRename method "Board" to prevent any misunderstanding/clash with field "board" defined on line 14.(ÚÉÍÿÿÿÿÿ
-squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÚÉÍÿÿÿÿÿ
+csquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(•İ„©
+Vsquid:UnusedPrivateMethod"*Remove this unused private "Board" method.(•İ„©8•²“Š²-
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•İ„©
