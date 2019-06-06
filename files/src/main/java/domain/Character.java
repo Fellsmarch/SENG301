@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Observable;
 import service.Enemy;
 import service.Treasure;
@@ -100,7 +101,7 @@ public class Character extends Observable { //Task 5
 
     //Task 2
     public List<Treasure> getCollectedTreasures() {
-        return collectedTreasures;
+        return Collections.unmodifiableList(collectedTreasures);
     }
 
     public void addEnemy(Enemy e) {

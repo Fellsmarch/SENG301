@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ceb09f-0996-4726-bab4-5f7c1fa1e744" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Explanations.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../Explanations.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Character.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="20485" />
+    <option name="totalTimeSeconds" value="20660" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-858036111">
@@ -62,24 +64,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2857" />
-          <entry key="txt" value="293" />
+          <entry key="java" value="2859" />
+          <entry key="txt" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2857" />
-          <entry key="PLAIN_TEXT" value="293" />
+          <entry key="JAVA" value="2859" />
+          <entry key="PLAIN_TEXT" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="56" />
         </counts>
       </usages-collector>
     </session>
@@ -119,11 +121,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/MixedRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="240">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,10 +154,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/TreasureRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="360">
               <caret line="24" column="35" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -208,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Rooms/CompositeRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/AdventureGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Rooms/MixedRoom.java" />
       </list>
     </option>
   </component>
@@ -323,7 +335,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559814957781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559816502366" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -402,7 +414,7 @@
       <workItem from="1559630729539" duration="2149000" />
       <workItem from="1559714743616" duration="3025000" />
       <workItem from="1559776763599" duration="13196000" />
-      <workItem from="1559798904385" duration="9890000" />
+      <workItem from="1559798904385" duration="10540000" />
     </task>
     <task id="LOCAL-00001" summary="Added .gitignore">
       <created>1559614187724</created>
@@ -488,17 +500,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559812035622</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Mademinor changes">
+      <created>1559815382178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559815382178</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39900000" />
+    <option name="totallyTimeSpent" value="40550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1680" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3017136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3017136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,7 +526,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32666665" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34777778" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34777778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,7 +567,8 @@
     <MESSAGE value="Used override notation for Enemy" />
     <MESSAGE value="Added implementation for Task 7" />
     <MESSAGE value="Added documentation for Task 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added documentation for Task 7" />
+    <MESSAGE value="Mademinor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mademinor changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -638,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/MixedRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/DecoratorRoom.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,16 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -740,13 +743,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/TreasureRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="360">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Rooms/MixedRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
