@@ -29,4 +29,12 @@ public abstract class Room {
     public void enter() {
         System.out.println("You have entered a " + this);
     }
+
+    public boolean add(Room room) {
+        return false;
+    }
+
+    public boolean remove(Room room) {
+        return false;
+    }
 }

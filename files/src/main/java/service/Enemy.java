@@ -37,6 +37,7 @@ public abstract class Enemy implements Observer { //Task 5
      */
     protected abstract Weapon createWeapon();
 
+    @Override
     public void update(Observable o, Object arg) { //Task 5
         Character character = (Character) o; //Task 5
         if (Board.getBoard().getCurrentRoom().getEnemy() == this && character.isReady()) { //Task 5
