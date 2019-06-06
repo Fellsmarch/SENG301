@@ -30,10 +30,22 @@ public abstract class Room {
         System.out.println("You have entered a " + this);
     }
 
+    /**
+     * The add method for the Composite pattern
+     *
+     * @param room the room to add
+     * @return True if added, false if not
+     */
     public boolean add(Room room) {
         return false;
     }
 
+    /**
+     * The remove method for the Composite pattern
+     *
+     * @param room the room to remove
+     * @return True if removed, false if not
+     */
     public boolean remove(Room room) {
         return false;
     }

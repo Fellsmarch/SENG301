@@ -5,6 +5,7 @@ import domain.Commands.EnterCommand;
 import domain.Commands.LeaveCommand;
 import domain.Commands.SearchCommand;
 
+import domain.Rooms.CompositeRoom;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -58,7 +59,11 @@ public class AdventureGame {
             case 2:
                 return new TreasureRoom(generateRandomTreasure());
             case 3:
-                return new MixedRoom(generateRandomEnemy(), generateRandomTreasure());
+                //Task 7
+                CompositeRoom compRoom = new CompositeRoom();
+                compRoom.add(new EnemyRoom(generateRandomEnemy()));
+                compRoom.add(new TreasureRoom(generateRandomTreasure()));
+                return compRoom;
         }
 
         return null;
